@@ -337,7 +337,7 @@ p[data-width="wide"] {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-image: url(/images/bg-tablet-pattern.svg);
+  background-image: url(./images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 40vw;
   background-position: -37rem 25rem;
@@ -657,7 +657,7 @@ p[data-width="wide"] {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
+    background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 500px;
     /* background-position: 27rem -14rem; */
@@ -749,7 +749,7 @@ p[data-width="wide"] {
       position: absolute;
       z-index: -1;
       inset: 0;
-      background-image: url(/images/bg-tablet-pattern.svg);
+      background-image: url(./images/bg-tablet-pattern.svg);
       background-repeat: no-repeat;
       background-size: 500px;
       background-position: 11rem -3rem;
@@ -778,7 +778,7 @@ p[data-width="wide"] {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
+    background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: 9rem -4rem;
@@ -807,7 +807,7 @@ p[data-width="wide"] {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
+    background-image: url(./images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 40vw;
     background-position: -47rem 18rem;
