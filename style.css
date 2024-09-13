@@ -278,7 +278,7 @@ p[data-width="wide"] {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-image: url(/images/bg-tablet-pattern.svg);
+  background-image: url(./images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 49vw;
   background-position: 75rem -9rem;
@@ -290,12 +290,6 @@ p[data-width="wide"] {
 
 @media (min-width: 1450px) {
   .hero-img-with-bg::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
     background-size: 1080px;
     background-position: 105rem -39rem;
     opacity: 1;
@@ -303,6 +297,11 @@ p[data-width="wide"] {
   }
 }
 /* =====About Section====== */
+
+.about-section{
+  position: relative;
+  isolation: isolate;
+}
 
 .about-section p {
   font-size: var(--fs-500);
@@ -339,17 +338,18 @@ p[data-width="wide"] {
   -webkit-border-radius: 100vmax;
 }
 
-.about-section .left-side::after {
+.about-section .left-side::before {
   content: "";
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-image: url(/images/bg-tablet-pattern.svg);
+  background-image: url(./images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
-  background-size: 48vw;
-  background-position: -41rem 114rem;
+  background-size: 42vw;
+  background-position: -35rem 36rem;
   opacity: 1;
   height: auto;
+  height: 200%;
 }
 
 /* =====CTA Section===== */
@@ -633,12 +633,6 @@ p[data-width="wide"] {
   }
 
   .hero-img-with-bg::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
     background-size: 93vw;
     background-position: 30rem -30rem;
     opacity: 1;
@@ -732,12 +726,6 @@ p[data-width="wide"] {
 
 
     .hero-img-with-bg::before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        inset: 0;
-        background-image: url(/images/bg-tablet-pattern.svg);
-        background-repeat: no-repeat;
         background-size: 100vw;
         background-position: 14rem -21rem;
         opacity: 1;
@@ -750,12 +738,6 @@ p[data-width="wide"] {
 @media (max-width: 600px) {
 
   .hero-img-with-bg::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background-image: url(/images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
     background-size: 115vw;
     background-position: 4rem -4rem;
     opacity: 1;
